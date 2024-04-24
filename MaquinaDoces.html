@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Máquina de Doces</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="MaquinaDoces.css">
 </head>
 <body>
     <div class="vending-machine">
-        <img src="C:\Coding\MaquinadeDoces\assets\MaquinaDoces.jpeg" alt="Máquina">
+        <img src="MaquinaDoces.jpeg" alt="Máquina">
         <h4>Insira Nota/Moeda:</h4>
         <div class="insert-money">
             <button id="btn1" onclick="addMoney(1)">R$1,00</button>
@@ -24,11 +24,13 @@
             <button id="doceC" onclick="selectDoce(8.00)">Doce C</button>
         </div>
         <h4><span id="doceSelecionadoFeedback" style="color:green;"></span></h4>
-        <button onclick="buy()">Comprar</button>
+        <button onclick="buy()">Comprar</button><br><br>
         <div id="output"></div>
+        <button id="voltarBtn" onclick="redirect('telaSelecao.html')">Voltar</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="MaquinaDoces.js"></script>
+    <script src="function.js"></script>
 </body>
 </html>
 
