@@ -81,7 +81,6 @@ function updateDoceButtons() {
     document.getElementById('doceB').disabled = saldo < 7.00;
     document.getElementById('doceC').disabled = saldo < 8.00;
 }
-
 // Chamamos updateDoceButtons() inicialmente para garantir que os botões de doce estejam corretamente habilitados ou desabilitados no início.
 updateDoceButtons();
 
