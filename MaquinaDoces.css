@@ -69,3 +69,7 @@ body {
     color: #666;
     cursor: not-allowed;
 }
+
+  #voltarBtn{
+    background-color: black;
+  }
