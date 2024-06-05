@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #282C34;
+    color: #ABB2BF;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+.textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #4B5263;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #3E4452;
+    color: #ABB2BF;
+    white-space: pre-wrap;
+}
+
+.textarea, #tokensOutput {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #4B5263;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #3E4452;
+    color: #ABB2BF;
+    overflow-y: auto; /* Adicionando barra de rolagem vertical */
+    white-space: pre-wrap;
+}
+
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7d2ae8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #7d2ae8;
+}
+
+.error-message {
+    color: #E06C75;
+    margin-top: 10px;
+}
+
+.keyword {
+    color: #805ad5; /* Roxo */
+}
+
+.relational-operator {
+    color: #2fb7c4; /* Azul claro */
+}
+
+.arithmetic-operator {
+    color: #d98d52; /* Laranja */
+}
+
+.logical-operator {
+    color: #60c3eb; /* Azul claro */
+}
+
+.assignment-operator {
+    color: #cf9a64; /* Marrom claro */
+}
+
+.delimiter {
+    color: #c19f86; /* Cinza */
+}
+
+.special-character {
+    color: #87d79e; /* Azul */
+}
+
+.identifier {
+    color: #87d79e; /* Verde claro */
+}
+
+.number {
+    color: #cf9a64; /* Marrom claro */
+}
+
+.variable {
+    color: #e57e86; /* Vermelho claro */
+}
+

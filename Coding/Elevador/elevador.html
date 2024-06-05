@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevador</title>
+    <link rel="stylesheet" href="elevador.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="aberto.jpg" alt="Elevador" id="elevador">
+        </div>
+        <div class="panel">
+            <div class="button-container">
+                <input type="text" readonly id="andar">
+                <button id="terreo" class="botao-andar" data-andar="0" onclick="selecionarAndar(0)">Térreo</button>
+                <button id="primeiro-andar" class="botao-andar" data-andar="1" onclick="selecionarAndar(1)">1º Andar</button>
+                <button id="segundo-andar" class="botao-andar" data-andar="2" onclick="selecionarAndar(2)">2º Andar</button>
+                <button id="terceiro-andar" class="botao-andar" data-andar="3" onclick="selecionarAndar(3)">3º Andar</button>
+                <button id="voltarBtn" onclick="redirect('C:/Coding/telaSelecao.html')">Voltar</button>
+            </div>
+        </div>
+    </div>
+    <script src="elevador.js"></script>
+    <script src="C:/Coding/function.js"></script>
+</body>
+</html>
+
+

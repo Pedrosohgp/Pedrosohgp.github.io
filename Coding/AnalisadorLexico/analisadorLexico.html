@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador Léxico</title>
+    <link rel="stylesheet" href="analisadorLexico.css">
+</head>
+<body>
+    <div class="container">
+        <textarea id="codeInput" class="textarea" placeholder="O código aparecerá aqui..." ></textarea>
+        <input type="file" id="fileInput" class="button" />
+        <button class="button" onclick="processCode()">Processar Código</button>
+        <select id="languageSelect" class="button">
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+        </select>
+        <button class="button" id="voltarBtn" onclick="redirect('C:/Coding/telaSelecao.html')">Voltar</button>
+        <p id="errorMessage" class="error-message"></p>
+        <div id="tokensOutput" class="textarea" placeholder="Os tokens aparecerão aqui..."></div>
+    </div>
+
+    <script src="analisadorLexico.js"></script>
+    <script src="C:/Coding/function.js"></script>
+</body>
+</html>
